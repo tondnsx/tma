@@ -9,7 +9,31 @@
     <script>
       Telegram.WebApp.expand();
     </script>
-    <script type="module" crossorigin src="/tma/assets/index-DPIOdfYw.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JPYESKVNCE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JPYESKVNCE');
+    </script>
+    <!-- Add Telegram Analytics script to HTML head -->
+    <script
+      async
+      src="https://tganalytics.xyz/index.js"
+      onload="initAnalytics()"
+      type="text/javascript"
+    ></script>
+    <script>
+      function initAnalytics() {
+      window.telegramAnalytics.init({
+        token: 'eyJhcHBfbmFtZSI6InRvbmRuc3giLCJhcHBfdXJsIjoiaHR0cHM6Ly90Lm1lL3RvbmRuc3hfYm90IiwiYXBwX2RvbWFpbiI6Imh0dHBzOi8vdG9uZG5zeC5naXRodWIuaW8vdG1hIn0=!SKkJPRP06TH1lv7gEVZyAEXI+nYyi4Cm9cbC7X87jVM=',
+        appName: 'tondnsx',
+        debug: true,});
+      }
+    </script>
+    <script type="module" crossorigin src="/tma/assets/index-BVAmTgnc.js"></script>
     <link rel="stylesheet" crossorigin href="/tma/assets/index-BDy9kCfw.css">
   </head>
   <body>
